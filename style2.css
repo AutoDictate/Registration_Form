@@ -1,0 +1,45 @@
+h1{
+    background: teal;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    margin-top: 3%;
+    height: 100px;
+    padding-top: 50px;
+    border-radius: 8px;
+    font-size: 40px;
+    border: 3px solid white;
+}
+
+video{
+    margin: auto;
+    margin-left: 37%;
+    margin-top: 10%;
+    height: 300px;
+    animation: video 0.1s infinite;
+}
+
+body{
+    animation: body 0.1s infinite;
+}
+
+@keyframes body{
+    0%{
+        background: white;
+    }
+    25%{
+        background: rgb(95, 42, 42);
+    }
+    50%{
+        background: black;
+    }
+    75%{
+        background: turquoise;
+    }
+    85%{
+        background: wheat;
+    }
+    100%{
+        background: black;
+    }
+}
